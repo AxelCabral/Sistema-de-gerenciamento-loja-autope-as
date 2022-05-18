@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    background-color: rgb(151, 226, 128);
+}
+.art img{
+    width: 34%;
+    height: 43vh;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 12%;
+}
+.title {
+    color: #FFF;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 19%;
+    font-size: large;
+    font-weight: 100;
+    position: absolute;
+}
+.return {
+    position: absolute;
+    width: 3%;
+    height: 41px;  
+    margin-top: 4%;
+    margin-left: 6%;
+}
+.return img {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 18%;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #000;
+    padding: 10.5px;
+}
+.return:hover {
+    filter: brightness(0.9);
+}
+.form {
+    width: 28%;
+    height: 50vh;
+    float: right;
+    margin-right: 16%;
+    background-color: #eff3f9dc;
+    border-radius: 10px;
+    margin-top: 8%;
+    padding: 20px;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.button {
+    background-color: #0061f2;
+    color: #fff;
+    width: 45%;
+    height: 44px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 8%;
+    font-size: 18px;
+    border: transparent;
+}
+.button:hover {
+    background-color: #55b6fb;
+    cursor: pointer;
+}
+.button_2 {
+    background-color: #0061f2;
+    color: #fff;
+    width: 60%;
+    height: 44px;
+    border-radius: 10px;
+    margin-left: 22%;
+    margin-top: 19%;
+    font-size: 18px;
+    border: transparent;
+}
+.button_2 a {
+    text-decoration: none;
+    color: #fff;
+}
+.button_2:hover {
+    background-color: #55b6fb;
+    cursor: pointer;
+}
+.form input[type='text'], .form input[type='number'], form input[type='date'] {
+    display: flex;
+    margin-bottom: 6%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 8px;
+    margin-left: 24%;
+    margin-top: 2%;
+    width: 50%;
+    outline: none;
+}
+.form label {
+    font-weight: bold;
+    margin-left: 24%;
+}
+.message {
+    font-size: 20px;
+    margin-left: 13%;
+    margin-top: 14%;
+}
+.form input[type='text']:hover, .form input[type='number']:hover, form input[type='date']:hover {
+    border: 1px solid #55b6fb;
+}

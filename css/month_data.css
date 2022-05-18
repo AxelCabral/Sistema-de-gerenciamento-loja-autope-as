@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    background-color: #5b53b1;
+}
+.title {
+    color: #FFF;
+    text-align: center;
+    margin-top: 11%;
+    margin-left: 25%;
+    font-size: large;
+    font-weight: 100;
+    position: absolute;
+}
+.return {
+    position: absolute;
+    width: 3%;
+    height: 41px;  
+    margin-top: 4%;
+    margin-left: 6%;
+}
+.return img {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 18%;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #000;
+    padding: 10.5px;
+}
+.return:hover {
+    filter: brightness(0.9);
+}
+.art img {
+    width: 39%;
+    height: 57vh;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.form {
+    width: 26%;
+    height: 40vh;
+    float: right;
+    margin-right: 13%;
+    background-color: #eff3f9dc;
+    border-radius: 10px;
+    margin-top: 12%;
+    padding: 20px;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.button {
+    background-color: #0061f2;
+    color: #fff;
+    width: 45%;
+    height: 44px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 8%;
+    font-size: 18px;
+    border: transparent;
+}
+.button:hover {
+    background-color: #55b6fb;
+    cursor: pointer;
+}
+.form select, .form input[type='number'] {
+    display: flex;
+    margin-bottom: 6%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 8px;
+    margin-left: 24%;
+    margin-top: 2%;
+    width: 50%;
+    outline: none;
+}
+.form label {
+    font-weight: bold;
+    margin-left: 25%;
+}
+.form select:hover, .form input[type='number']:hover {
+    border: 1px solid #9a69ae;
+}
